@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Rubik', sans-serif;
+    background: #E5E5E5;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-heading{
+    width: 100%;
+    padding: 100px 0px 80px 0px;
+    text-align: center;
+}
+
+.main-heading h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.main-heading p{
+    font-size: 16px;
+    color: rgb(87, 87, 85);
+}
+
+.consultant{
+    display: flex;
+    justify-content: center;
+}
+
+.consultant .groupOne{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.groupOne .One img{
+    width:700px;
+    height: 300px;
+}
+
+.groupOne .image img{
+    max-width: 100%;
+}
+
+.groupOne .Two img{
+    width:700px;
+    height: 300px;
+}
+
+.Strategy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    height: 300px;
+    padding: 30px 10px;
+}
+
+.Strategy img{
+    width: 60px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+
+.Strategy h2{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 15px;
+    
+}
+
+.Strategy p{
+    font-size: 16px;
+    color: rgb(87, 87, 85);
+    text-align: center;
+
+}
+
+.second{
+    padding-bottom: 80px;
+    margin-top: -7px;
+}
+
+
+/* Another---------------------------------------- */
+.industry{
+    width: 100%;
+    text-align: center;
+    background: #499FF0;
+    padding: 80px 0px;
+}
+
+.industry h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.industry h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.industry p{
+    font-size: 16px;
+    color: rgb(244, 244, 239);
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+} 
+
+.industry button{
+    padding: 18px 50px;
+    background: #F63A12;
+    text-align: center;
+    outline: none;
+    border: 1px solid #F63A12;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.industry button:hover{
+    background: #d23411;
+    color: #000;
+    border: 1px solid #d23411;
+}
+
+
+/* meet------------------------------------------------------ */
+
+.meet{
+    width: 100%;
+    padding: 70px 0px;
+    background: #F2F2F2;
+    text-align: center;
+}
+
+.text{
+    padding: 0px 31%;
+}
+.text h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4b4a4a;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+
+
+/* Card-------------------------- */
+
+
+
+.main-card{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 80px 0px 80px 0px;
+    gap: 30px;
+}
+
+.main-card .card{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 20px 0px;
+}
+
+
+.card-image img{
+    max-width: 100%;
+    border-radius: 50%;
+    width: 400px;
+}
+
+.details{
+    text-align: start;
+}
+
+.details h3{
+    font-size: 17px;
+    font-weight: 400;
+    color: #6d6d6d;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+}
+
+.details h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+}
+
+.details p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #6d6d6d;
+    margin-bottom: 30px;
+}
+
+.icon .bx{
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd;
+    box-shadow: 0 3px 3px #c6c6c6;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    cursor: pointer;
+    background: #499FF0;
+    margin-right:15px;
+}
+
+.icon .bx:hover{
+    color: #499FF0;  
+    background: #fff;
+}
+
+
+/* pertership----------------------- */
+
+.partnership{
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+.partnership h2{
+    font-size: 38px;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.member{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 78px;
+}
+
+.member img{
+    max-width: 100%;
+    width: 70px;
+    height: auto;
+}
